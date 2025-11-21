@@ -1,8 +1,3 @@
-# PHP Native REST API - User CRUD
-
-Proyek ini adalah REST API sederhana menggunakan PHP Native dan MySQL  
-untuk mengelola data `users` dengan operasi CRUD (Create, Read, Update, Delete).
-
 ##Endpoint API
 
 | Method | Endpoint | Deskripsi |
@@ -13,10 +8,3 @@ untuk mengelola data `users` dengan operasi CRUD (Create, Read, Update, Delete).
 | PUT | `/api/v1/users/{id}` | Update user berdasarkan ID |
 | DELETE | `/api/v1/users/{id}` | Hapus user berdasarkan ID |
 
-##Contoh Request (POST)
-```json
-{
-    "username": "zet123",
-    "email": "zet@example.com",
-    "password": "123456"
-}
